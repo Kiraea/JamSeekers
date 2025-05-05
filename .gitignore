@@ -1,0 +1,8 @@
+Backend/JamSeekersAPI/appsettings.Development.json
+Backend/JamSeekersAPI/bin/
+Backend/JamSeekersAPI/obj/
+Backend/JamSeekersAPI/Migrations/
+Backend/JamSeekersAPI/Properties/
+Backend/JamSeekersAPI/JamSeekersApi.http
+Backend/.idea/
+Backend/JamSeekers.sln.DotSettings.user
