@@ -23,7 +23,7 @@ public class AccountController : ControllerBase
     }
 
     [HttpPost("/register")]
-    public async Task<IActionResult> Login([FromBody] CreateAppUserDto createAppUserDto)
+    public async Task<IActionResult> Register([FromBody] CreateAppUserDto createAppUserDto)
     {
         if (!ModelState.IsValid)
         {

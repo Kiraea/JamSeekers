@@ -9,7 +9,7 @@ public class CreateAppUserDto
     public required string Email { get; set; } 
     [Required]
     
-    [StringLength(maximumLength: 40, MinimumLength = 3, ErrorMessage = "Username must be between 3 and 40 characters long.")]
+    [StringLength(maximumLength: 40, MinimumLength = 3, ErrorMessage = "Password must be between 3 and 40 characters long.")]
     public required string Password { get; set; }
     
     
